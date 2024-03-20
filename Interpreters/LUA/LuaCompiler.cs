@@ -1,0 +1,64 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using UniLua;
+
+namespace Lynox.Additions.LUA
+{
+    public static class LUA
+    {
+
+        public static void Run(string code)
+        {
+            try
+            {
+
+                // Create a new Lua state
+                ILuaState lua = LuaAPI.NewState();
+                lua.L_OpenLibs(); // Open the Lua libraries
+                lua.L_RequireF(APIs.LUA_LYNOXGRAPHICS.LIB_NAME
+                                  , APIs.LUA_LYNOXGRAPHICS.OpenLib
+                                  , false);
+                lua.L_RequireF(APIs.LUA_BASIC.LIB_NAME
+                                  , APIs.LUA_BASIC.OpenLib
+                                  , false);
+                lua.L_RequireF(APIs.LUA_FS.LIB_NAME
+                                  , APIs.LUA_FS.OpenLib
+                                  , false);
+                lua.L_RequireF(APIs.LUA_CLI.LIB_NAME
+                                  , APIs.LUA_CLI.OpenLib
+                                  , false);
+
+
+                // Define a Lua script that returns a value
+                string script = code;
+
+                // Load and run the Lua script
+                var status = lua.L_LoadString(script);
+                if (status != 0)
+                {
+                    Console.WriteLine("Error loading script: " + lua.ToString(-1));
+                    return;
+                }
+
+                status = lua.PCall(0, 1, 0);
+                if (status != 0)
+                {
+                    Console.WriteLine("Error running script: " + lua.ToString(-1));
+                    return;
+                }
+
+                // Get the output from the Lua script
+                string output = lua.ToString(-1);
+                Console.WriteLine(output);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("ex:" + e.Message + "\n");
+            }
+        }
+
+    }
+}

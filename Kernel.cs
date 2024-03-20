@@ -1,5 +1,9 @@
-﻿using System;
+﻿using Cosmos.System.FileSystem;
+using Cosmos.System.FileSystem.VFS;
+using Lynox.Additions.LUA;
+using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Text;
 using Sys = Cosmos.System;
 
@@ -8,17 +12,24 @@ namespace FredOS
     public class Kernel : Sys.Kernel
     {
 
+        CosmosVFS vfs;
+
         protected override void BeforeRun()
         {
-            Console.WriteLine("Cosmos booted successfully. Type a line of text to get it echoed back.");
+
+            vfs = new();
+            VFSManager.RegisterVFS(vfs);
+
+            Console.WriteLine("Kenrnel booted.");
+            Console.WriteLine("Booting os.");
+
+            LUA.Run(File.ReadAllText(@"1:\OSinit.lua"));
+
         }
 
         protected override void Run()
         {
-            Console.Write("Input: ");
-            var input = Console.ReadLine();
-            Console.Write("Text typed: ");
-            Console.WriteLine(input);
+            
         }
     }
 }
