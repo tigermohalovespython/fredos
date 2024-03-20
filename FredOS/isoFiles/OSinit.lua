@@ -15,7 +15,7 @@ while true do
 		CLI.writeline("cat - read the content of a file");	
 		CLI.writeline("----------------------------");	
 	elseif command == "cat" then
-		CLI.writeline(FS.readalltext(CLI.readalltext()));
+		CLI.writeline(FS.readalltext(CLI.readline()));
 	end
 
 

@@ -11,7 +11,8 @@
           "Cosmos.Build": "0.1.0-localbuild20240309044247",
           "Cosmos.Debug.Kernel": "0.1.0-localbuild20240309044310",
           "Cosmos.Plugs": "0.1.0-localbuild20240309044310",
-          "Cosmos.System2": "0.1.0-localbuild20240309044310"
+          "Cosmos.System2": "0.1.0-localbuild20240309044310",
+          "CosmosHttp": "1.0.4"
         },
         "runtime": {
           "FredOS.dll": {}
@@ -101,11 +102,31 @@
           }
         }
       },
+      "CosmosHttp/1.0.4": {
+        "dependencies": {
+          "Cosmos.System2": "0.1.0-localbuild20240309044310",
+          "Zlib.Portable": "1.11.0"
+        },
+        "runtime": {
+          "lib/net6.0/CosmosHttp.dll": {
+            "assemblyVersion": "1.0.4.0",
+            "fileVersion": "1.0.4.0"
+          }
+        }
+      },
       "IL2CPU.API/0.1.0-localbuild20240309044310": {
         "runtime": {
           "lib/netstandard2.0/IL2CPU.API.dll": {
             "assemblyVersion": "10.0.0.0",
             "fileVersion": "10.0.0.0"
+          }
+        }
+      },
+      "Zlib.Portable/1.11.0": {
+        "runtime": {
+          "lib/portable-net4+sl5+wp8+win8+wpa81+MonoTouch+MonoAndroid/Zlib.Portable.dll": {
+            "assemblyVersion": "1.11.0.0",
+            "fileVersion": "1.11.0.0"
           }
         }
       }
@@ -166,12 +187,26 @@
       "path": "cosmos.system2/0.1.0-localbuild20240309044310",
       "hashPath": "cosmos.system2.0.1.0-localbuild20240309044310.nupkg.sha512"
     },
+    "CosmosHttp/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WrsoH7PHrhEeHcf0R1xNM1i/eo8MPgC108WsJ6mcCCIR/4bxG6MlqiVSw1Uda2f/b1i9EZqONqDcVUGSSQd5wQ==",
+      "path": "cosmoshttp/1.0.4",
+      "hashPath": "cosmoshttp.1.0.4.nupkg.sha512"
+    },
     "IL2CPU.API/0.1.0-localbuild20240309044310": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-q84SlUAz43p4cOBExLmMUrqSK1hGmSluHyf7OMsEgn68OQhJQoVkwsxJbuAaGh6x62N1m1vFk6sNw9KbooLhIg==",
       "path": "il2cpu.api/0.1.0-localbuild20240309044310",
       "hashPath": "il2cpu.api.0.1.0-localbuild20240309044310.nupkg.sha512"
+    },
+    "Zlib.Portable/1.11.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-T8FoSv/7DuP4ItfacfiD1a5Ra29e3ogZnK8KnaOhxooxHbNOf0Kj00DIyQqZupzVGB5BkluKJ1/aAFVtMYFUTw==",
+      "path": "zlib.portable/1.11.0",
+      "hashPath": "zlib.portable.1.11.0.nupkg.sha512"
     }
   }
 }

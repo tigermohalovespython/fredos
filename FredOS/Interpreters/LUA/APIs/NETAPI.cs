@@ -24,6 +24,7 @@ namespace Lynox.Additions.LUA.APIs
             var define = new NameFuncPair[]
             {
             new NameFuncPair("getcontent", LUA_READTEXT),
+            new NameFuncPair("getip", LUA_READIP),
             //new NameFuncPair("clearcanvas", LUA_CLEARCANVAS),
             //new NameFuncPair("drawfilledrect", LUA_DRAWFILLEDRECT),
             //new NameFuncPair("drawrect", LUA_DRAWRECT),
@@ -37,6 +38,12 @@ namespace Lynox.Additions.LUA.APIs
         {
 
             lua.PushString(Http.DownloadFile(lua.ToString(1)));
+            return 1;
+        }
+        public static int LUA_READIP(ILuaState lua)
+        {
+
+            lua.PushString(NetworkConfiguration.CurrentAddress.ToString());
             return 1;
         }
 

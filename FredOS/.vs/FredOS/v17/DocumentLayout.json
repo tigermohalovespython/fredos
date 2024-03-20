@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|c:\\users\\samuele\\documents\\github\\fredos\\fredos\\isofiles\\osinit.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|solutionrelative:isofiles\\osinit.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|c:\\users\\samuele\\documents\\github\\fredos\\fredos\\interpreters\\lua\\apis\\consoleapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|solutionrelative:interpreters\\lua\\apis\\consoleapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|c:\\users\\samuele\\documents\\github\\fredos\\fredos\\interpreters\\lua\\apis\\fsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|solutionrelative:interpreters\\lua\\apis\\fsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|c:\\users\\samuele\\documents\\github\\fredos\\fredos\\kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|solutionrelative:kernel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|c:\\users\\samuele\\documents\\github\\fredos\\fredos\\interpreters\\lua\\luacompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|solutionrelative:interpreters\\lua\\luacompiler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|c:\\users\\samuele\\documents\\github\\fredos\\fredos\\interpreters\\lua\\apis\\netapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|solutionrelative:interpreters\\lua\\apis\\netapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|c:\\users\\samuele\\documents\\github\\fredos\\fredos\\isofiles\\osinit.lua||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|solutionrelative:isofiles\\osinit.lua||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|c:\\users\\samuele\\documents\\github\\fredos\\fredos\\interpreters\\lua\\apis\\fsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70BA2C4A-4E98-4D2D-9EBD-0BF9E730D242}|FredOS.csproj|solutionrelative:interpreters\\lua\\apis\\fsapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,32 +31,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ConsoleAPI.cs",
-              "DocumentMoniker": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Interpreters\\LUA\\APIs\\ConsoleAPI.cs",
-              "RelativeDocumentMoniker": "Interpreters\\LUA\\APIs\\ConsoleAPI.cs",
-              "ToolTip": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Interpreters\\LUA\\APIs\\ConsoleAPI.cs",
-              "RelativeToolTip": "Interpreters\\LUA\\APIs\\ConsoleAPI.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAA1wCYAAAAJAAAA",
+              "Title": "NETAPI.cs",
+              "DocumentMoniker": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Interpreters\\LUA\\APIs\\NETAPI.cs",
+              "RelativeDocumentMoniker": "Interpreters\\LUA\\APIs\\NETAPI.cs",
+              "ToolTip": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Interpreters\\LUA\\APIs\\NETAPI.cs",
+              "RelativeToolTip": "Interpreters\\LUA\\APIs\\NETAPI.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwB4AAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T16:14:56.35Z",
+              "WhenOpened": "2024-03-20T17:07:46.946Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "LuaCompiler.cs",
-              "DocumentMoniker": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Interpreters\\LUA\\LuaCompiler.cs",
-              "RelativeDocumentMoniker": "Interpreters\\LUA\\LuaCompiler.cs",
-              "ToolTip": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Interpreters\\LUA\\LuaCompiler.cs",
-              "RelativeToolTip": "Interpreters\\LUA\\LuaCompiler.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T16:20:55.608Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "FSAPI.cs",
               "DocumentMoniker": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Interpreters\\LUA\\APIs\\FSAPI.cs",
               "RelativeDocumentMoniker": "Interpreters\\LUA\\APIs\\FSAPI.cs",
@@ -73,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OSinit.lua",
               "DocumentMoniker": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\isoFiles\\OSinit.lua",
               "RelativeDocumentMoniker": "isoFiles\\OSinit.lua",
               "ToolTip": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\isoFiles\\OSinit.lua",
               "RelativeToolTip": "isoFiles\\OSinit.lua",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAArAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-03-20T16:13:14.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Kernel.cs",
               "DocumentMoniker": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Kernel.cs",
               "RelativeDocumentMoniker": "Kernel.cs",
-              "ToolTip": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Kernel.cs",
-              "RelativeToolTip": "Kernel.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ToolTip": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\Kernel.cs*",
+              "RelativeToolTip": "Kernel.cs*",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-20T16:05:23.208Z",
               "EditorCaption": ""
