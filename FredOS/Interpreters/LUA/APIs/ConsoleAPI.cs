@@ -21,6 +21,7 @@ namespace Lynox.Additions.LUA.APIs
             new NameFuncPair("writeline", LUA_WRITELINE),
             new NameFuncPair("write", LUA_WRITE),
             new NameFuncPair("readline", LUA_READLINE),
+            new NameFuncPair("splitstring", LUA_READLINE),
             //new NameFuncPair("clearcanvas", LUA_CLEARCANVAS),
             //new NameFuncPair("drawfilledrect", LUA_DRAWFILLEDRECT),
             //new NameFuncPair("drawrect", LUA_DRAWRECT),
