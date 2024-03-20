@@ -1,0 +1,1 @@
+print("FredOS has started");
