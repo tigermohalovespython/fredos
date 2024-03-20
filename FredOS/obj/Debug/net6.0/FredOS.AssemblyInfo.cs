@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Use VMware Player or Workstation to deploy and debug.")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e98edf4617ed5e23aa3161187e3a70e2cbae686")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0b821ab79733516bb2cba8dc263dcafe2069387")]
 [assembly: System.Reflection.AssemblyProductAttribute("FredOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FredOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

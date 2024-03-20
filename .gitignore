@@ -1,2 +1,15 @@
 
 *.vsidx
+FredOS/bin/Debug/net6.0/FredOS.asm
+FredOS/bin/Debug/net6.0/FredOS.cdb
+*.dll
+FredOS/obj/Debug/net6.0/FredOS.AssemblyInfoInputs.cache
+FredOS/obj/Debug/net6.0/FredOS.pdb
+FredOS/obj/Debug/net6.0/FredOS.sourcelink.json
+FredOS/obj/Debug/net6.0/ref/FredOS.dll
+FredOS/obj/Debug/net6.0/refint/FredOS.dll
+FredOS/obj/Debug/net6.0/FredOS.AssemblyInfoInputs.cache
+FredOS/obj/Debug/net6.0/FredOS.pdb
+FredOS/obj/Debug/net6.0/FredOS.sourcelink.json
+FredOS/obj/Debug/net6.0/ref/FredOS.dll
+FredOS/obj/Debug/net6.0/refint/FredOS.dll

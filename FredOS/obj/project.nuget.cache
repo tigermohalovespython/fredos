@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wYQXXFu5n42HWt6jk28UE6Xb1VRxvAEE7Ujj4naRblrXgUX1+NF5duK6fquYZD3IqvAsQROK+t6ijLnpksFYiA==",
+  "dgSpecHash": "pWd2JqUqrT0UUTERbKgB4Aox2/eKZBoORSi6qa37WG/uw9WqWPrgsIsFSmGebYEj7fdFlHp+zQnsk2oxda42HA==",
   "success": true,
   "projectFilePath": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\FredOS.csproj",
   "expectedPackageFiles": [
@@ -11,7 +11,20 @@
     "C:\\Users\\samuele\\.nuget\\packages\\cosmos.hal2\\0.1.0-localbuild20240309044310\\cosmos.hal2.0.1.0-localbuild20240309044310.nupkg.sha512",
     "C:\\Users\\samuele\\.nuget\\packages\\cosmos.plugs\\0.1.0-localbuild20240309044310\\cosmos.plugs.0.1.0-localbuild20240309044310.nupkg.sha512",
     "C:\\Users\\samuele\\.nuget\\packages\\cosmos.system2\\0.1.0-localbuild20240309044310\\cosmos.system2.0.1.0-localbuild20240309044310.nupkg.sha512",
-    "C:\\Users\\samuele\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20240309044310\\il2cpu.api.0.1.0-localbuild20240309044310.nupkg.sha512"
+    "C:\\Users\\samuele\\.nuget\\packages\\cosmoshttp\\1.0.4\\cosmoshttp.1.0.4.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20240309044310\\il2cpu.api.0.1.0-localbuild20240309044310.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\zlib.portable\\1.11.0\\zlib.portable.1.11.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Il pacchetto 'Zlib.Portable 1.11.0' è stato ripristinato mediante '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' e non mediante il framework di destinazione del progetto 'net6.0'. Questo pacchetto potrebbe non essere completamente compatibile con il progetto.",
+      "libraryId": "Zlib.Portable",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

@@ -30,7 +30,12 @@ namespace Lynox.Additions.LUA
                 lua.L_RequireF(APIs.LUA_CLI.LIB_NAME
                                   , APIs.LUA_CLI.OpenLib
                                   , false);
-
+                lua.L_RequireF(APIs.LUA_LUALUA.LIB_NAME
+                                  , APIs.LUA_LUALUA.OpenLib
+                                  , false);
+                lua.L_RequireF(APIs.LUA_Networking.LIB_NAME
+                                  , APIs.LUA_Networking.OpenLib
+                                  , false);
 
                 // Define a Lua script that returns a value
                 string script = code;
