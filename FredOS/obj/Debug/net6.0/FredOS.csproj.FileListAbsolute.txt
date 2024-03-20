@@ -1,0 +1,13 @@
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\bin\Debug\net6.0\FredOS.deps.json
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\bin\Debug\net6.0\FredOS.dll
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\bin\Debug\net6.0\FredOS.pdb
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\FredOS.csproj.AssemblyReference.cache
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\FredOS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\FredOS.AssemblyInfoInputs.cache
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\FredOS.AssemblyInfo.cs
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\FredOS.csproj.CoreCompileInputs.cache
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\FredOS.sourcelink.json
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\FredOS.dll
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\refint\FredOS.dll
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\FredOS.pdb
+C:\Users\samuele\Documents\GitHub\fredos\FredOS\obj\Debug\net6.0\ref\FredOS.dll

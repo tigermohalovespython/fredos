@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "wYQXXFu5n42HWt6jk28UE6Xb1VRxvAEE7Ujj4naRblrXgUX1+NF5duK6fquYZD3IqvAsQROK+t6ijLnpksFYiA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\samuele\\Documents\\GitHub\\fredos\\FredOS\\FredOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\samuele\\.nuget\\packages\\cosmos.build\\0.1.0-localbuild20240309044247\\cosmos.build.0.1.0-localbuild20240309044247.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\cosmos.common\\0.1.0-localbuild20240309044310\\cosmos.common.0.1.0-localbuild20240309044310.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\cosmos.core\\0.1.0-localbuild20240309044310\\cosmos.core.0.1.0-localbuild20240309044310.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\cosmos.debug.kernel\\0.1.0-localbuild20240309044310\\cosmos.debug.kernel.0.1.0-localbuild20240309044310.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\cosmos.hal2\\0.1.0-localbuild20240309044310\\cosmos.hal2.0.1.0-localbuild20240309044310.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\cosmos.plugs\\0.1.0-localbuild20240309044310\\cosmos.plugs.0.1.0-localbuild20240309044310.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\cosmos.system2\\0.1.0-localbuild20240309044310\\cosmos.system2.0.1.0-localbuild20240309044310.nupkg.sha512",
+    "C:\\Users\\samuele\\.nuget\\packages\\il2cpu.api\\0.1.0-localbuild20240309044310\\il2cpu.api.0.1.0-localbuild20240309044310.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,1 +1,0 @@
-print("FredOS has started");
